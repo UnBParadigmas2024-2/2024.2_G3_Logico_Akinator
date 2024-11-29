@@ -1,75 +1,78 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! *Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(Paradigma)_(NomeDoProjeto)*. !!** 
-
-Paradigmas:
- - Funcional
- - Logico
- - SMA
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2023.2_G1_Logico_ProjetoRoteirosAereos*. !!**
- 
- (Apague esses comentários)
-
-# NomeDoProjeto
+# Akinator
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo**: 03 <br>
+**Paradigma**: Logico <br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| Matrícula | Aluno                             |
+| --------- | --------------------------------- |
+| 190124997 | Amanda Nobre                      |
+| 200017772 | Fellipe Pereira da Costa Silva    |
+| 190028122 | Gabriel Sabanai Trindade          |
+| 200037994 | Guilherme Barbosa Ferreira        |
+| 190029731 | Ingrid da Silva Carvalho          |
+| 190046848 | Laís Portela de Aguiar            |
+| 221007653 | Luciano Ricardo da Silva Junior   |
+| 190033681 | Luiz Henrique Fernandes Zamprogno |
+| 200025449 | Natan Tavares Santana             |
+| 200042416 | Pablo Christianno Silva Guedes    |
+
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+<!-- Descreva o seu projeto em linhas gerais. 
 Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto. -->
 
 ## Screenshots
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+<!-- Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento. -->
 
 ## Instalação 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagens**: Prolog<br>
+**Tecnologias**: xxxxxx<br> <!--TODO -->
+<!-- Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
+Gifs animados e outras ilustrações são bem-vindos! -->
 
 ## Uso 
-Explique como usar seu projeto.
+<!-- Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
 
 ## Vídeo
-Adicione 1 ou mais vídeos com a execução do projeto.
+<!-- Adicione 1 ou mais vídeos com a execução do projeto.
 Procure: 
 (i) Introduzir o projeto;
 (ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
 (iii) Apresentar particularidades do Paradigma, da Linguagem, e das Tecnologias, e
 (iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
 OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
-TEMPO: +/- 15min
+TEMPO: +/- 15min -->
 
 ## Participações
-Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
-|Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios (ex. links para commits)
-| -- | -- | -- | -- |
-| Fulano  |  Programação dos Fatos da Base de Conhecimento Lógica | Boa | Commit tal (com link)
+
+Aqui está a tabela com os nomes em ordem alfabética:
+
+| Nome do Membro    | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios           |
+| ----------------- | ------------ | ------------------------------------------------------------------------------ | ------------------------ |
+| Amanda Nobre      |              |                                                                                | [Nome do PR](link_do_PR) |
+| Felipe Pereira    |              |                                                                                | [Nome do PR](link_do_PR) |
+| Gabriel Sabanai   |              |                                                                                | [Nome do PR](link_do_PR) |
+| Guilherme Barbosa |              |                                                                                | [Nome do PR](link_do_PR) |
+| Ingrid Carvalho   |              |                                                                                | [Nome do PR](link_do_PR) |
+| Lais Portela      |              |                                                                                | [Nome do PR](link_do_PR) |
+| Luciano Ricardo   |              |                                                                                | [Nome do PR](link_do_PR) |
+| Luiz Henrique     |              |                                                                                | [Nome do PR](link_do_PR) |
+| Natan Tavares     |              |                                                                                | [Nome do PR](link_do_PR) |
+| Pablo Christianno |              |                                                                                | [Nome do PR](link_do_PR) |
 
 ## Outros 
-Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
+<!-- Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
 (i) Lições Aprendidas;
 (ii) Percepções;
 (iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros.
+(iV) Trabalhos Futuros. -->
 
 ## Fontes
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+<!-- Referencie, adequadamente, as referências utilizadas.
+Indique ainda sobre fontes de leitura complementares. -->
