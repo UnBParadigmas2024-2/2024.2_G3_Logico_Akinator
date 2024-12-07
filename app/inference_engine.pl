@@ -1,6 +1,6 @@
 :- dynamic entidade/1, pergunta_feita/2.
 
-% Conta Pokémons para cada característica e valor
+% Conta Pokémons para cada característica e valor considerando a base atual
 conta_caracteristica(Caracteristica, Valor, Contagem) :-
     findall(Pokemon, (
         entidade(Pokemon),
@@ -15,8 +15,7 @@ impacto_pergunta(Caracteristica, Valor, Impacto) :-
     % Conta Pokémon que não possuem a característica
     findall(Pokemon, (
         entidade(Pokemon),
-        call(Caracteristica, Pokemon, OutroValor),
-        OutroValor \= Valor
+        \+ call(Caracteristica, Pokemon, Valor)
     ), ListaNao),
     length(ListaNao, Nao),
     % Impacto é a menor das duas quantidades
@@ -38,12 +37,14 @@ perguntar :-
             member(Caracteristica, Caracteristicas),
             call(Caracteristica, _, Valor),  % Obtém valores para a característica
             \+ pergunta_feita(Caracteristica, Valor), % Ignora perguntas já feitas
+            conta_caracteristica(Caracteristica, Valor, Contagem),
+            Contagem > 0, % Garante que haja entidades para este valor
             impacto_pergunta(Caracteristica, Valor, Impacto)
         ),
         OpcoesNaoUnicas
     ),
     (OpcoesNaoUnicas = [] ->
-        writeln('Todas as perguntas já foram feitas.');
+        writeln('Todas as perguntas já foram feitas ou não há critérios válidos restantes.');
     sort(OpcoesNaoUnicas, [(MelhorImpacto, Carac, Valor)|_]), % Seleciona a pergunta com maior impacto
     format('A entidade possui ~w igual a ~w? (s/n): ', [Carac, Valor]),
     read(Resposta),
