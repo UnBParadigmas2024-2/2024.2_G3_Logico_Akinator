@@ -80,3 +80,5 @@ Os predicados escolhidos para carecterizar os pokemons foram:
         - sem braços
         - peixe
         - bola
+
+* Não utilize acentos e caracteres especiais.
