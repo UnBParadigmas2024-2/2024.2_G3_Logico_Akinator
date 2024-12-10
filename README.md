@@ -1,4 +1,5 @@
 # Pokenator
+ 
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
 **Nro do Grupo**: 03 <br>
@@ -38,6 +39,18 @@ Gifs animados e outras ilustrações são bem-vindos! -->
 <!-- Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
 Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
+
+1. Tenha o Prolog instalado
+
+2. Entre na pasta app
+```bash
+cd app
+```
+
+3. Execute o arquivo main.pl
+```bash
+swipl main.pl
+```
 
 ## Vídeo
 <!-- Adicione 1 ou mais vídeos com a execução do projeto.
