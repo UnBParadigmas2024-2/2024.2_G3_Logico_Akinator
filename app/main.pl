@@ -6,7 +6,7 @@
 
 main :-
     limpar_terminal,
-writeln('██████╗  ██████╗ ██╗  ██╗███████╗███╗   ██╗ █████╗ ████████╗ ██████╗ ██████╗ '),
+    writeln('██████╗  ██████╗ ██╗  ██╗███████╗███╗   ██╗ █████╗ ████████╗ ██████╗ ██████╗ '),
     writeln('██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝████╗  ██║██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗'),
     writeln('██████╔╝██║   ██║█████╔╝ █████╗  ██╔██╗ ██║███████║   ██║   ██║   ██║██████╔╝'),
     writeln('██╔═══╝ ██║   ██║██╔═██╗ ██╔══╝  ██║╚██╗██║██╔══██║   ██║   ██║   ██║██╔══██╗'),
@@ -36,31 +36,20 @@ menu :-
 
 jogar :-
     inicializar_contador,
-    perguntar,
-    writeln('Deseja jogar novamente? (s/n):'),
-    read_line_to_string(user_input, RespostaStr),
-    string_lower(RespostaStr, Resposta),
-    (Resposta = "s" ->
-        resetar_jogo,
-        limpar_terminal,
-        jogar
-    ;
-        writeln('Obrigado por jogar! Até a próxima.'),
-        halt
-    ).
+    perguntar.
 
 perguntar :-
     findall(Pokemon, entidade(Pokemon), ListaEntidades),
     length(ListaEntidades, NumEntidades),
     limpar_terminal,
     (
-NumEntidades = 0 ->
-        writeln('Nenhuma entidade corresponde aos critérios.')
-;
-    NumEntidades = 1 ->
-                exibir_contador_perguntas,
+        NumEntidades = 0 ->
+            writeln('Nenhuma entidade corresponde aos critérios.')
+        ;
+        NumEntidades = 1 ->
+            exibir_contador_perguntas,
             adivinhar
-;
+        ;
     caracteristicas(Caracteristicas),
     findall(
         (Impacto, Caracteristica, Valor),
@@ -82,7 +71,7 @@ NumEntidades = 0 ->
     format('A entidade possui ~w igual a ~w? (s/n): ', [Carac, Valor]),
     read_line_to_string(user_input, RespostaStr),
     string_lower(RespostaStr, Resposta),
-(Resposta = "exit" ->
+    (Resposta = "exit" ->
         writeln('Saindo do jogo...'),
         halt;
     assert(pergunta_feita(Carac, Valor)),
@@ -124,11 +113,24 @@ adivinhar :-
             string_lower(RespostaStr, Resposta),
             (Resposta = "s" ->
                 writeln('Acertei!!! 😁'),
-                jogar
+                jogar_novamente
             ;
                 writeln('Dessa vez eu falhei... Mas não fique triste, vamos tentar de novo!'),
-                jogar
+                jogar_novamente
             )
     ;
         perguntar
+    ).
+
+jogar_novamente :-
+    writeln('Deseja jogar novamente? (s/n):'),
+    read_line_to_string(user_input, RespostaStr),
+    string_lower(RespostaStr, Resposta),
+    (Resposta = "s" ->
+        resetar_jogo,  % Reinicia o jogo sem reiniciar o contador de perguntas
+        limpar_terminal,
+        jogar  % Chama novamente a função jogar para reiniciar o processo
+    ;
+        writeln('Obrigado por jogar! Até a próxima.'),
+        halt
     ).
