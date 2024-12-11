@@ -39,6 +39,7 @@ Gifs animados e outras ilustrações são bem-vindos! -->
 <!-- Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
 Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
+![image](docs/telaInicial.png)
 
 1. Tenha o Prolog instalado
 
