@@ -72,9 +72,12 @@ perguntar :-
     format('A entidade possui ~w igual a ~w? (s/n): ', [Carac, Valor]),
     read_line_to_string(user_input, RespostaStr),
     string_lower(RespostaStr, Resposta),
+(Resposta = "exit" ->
+        writeln('Saindo do jogo...'),
+        halt;
     assert(pergunta_feita(Carac, Valor)),
     processar_resposta(Resposta, Carac, Valor, MelhorImpacto),
-    perguntar)).
+    perguntar))).
 
 limpar_terminal :-
     write('\33[2J').
