@@ -53,11 +53,14 @@ perguntar :-
     findall(Pokemon, entidade(Pokemon), ListaEntidades),
     length(ListaEntidades, NumEntidades),
     limpar_terminal,
-    (NumEntidades = 0 ->
-        writeln('Nenhuma entidade corresponde aos critérios.');
+    (
+NumEntidades = 0 ->
+        writeln('Nenhuma entidade corresponde aos critérios.')
+;
     NumEntidades = 1 ->
-        format('O seu pokemon é: ~w~n', ListaEntidades),
-        exibir_contador_perguntas;
+                exibir_contador_perguntas,
+            adivinhar
+;
     caracteristicas(Caracteristicas),
     findall(
         (Impacto, Caracteristica, Valor),
@@ -109,3 +112,23 @@ incrementar_contador :-
 exibir_contador_perguntas :-
     contador_perguntas(Contagem),
     format('Perguntas feitas até agora: ~w~n', [Contagem]).
+
+adivinhar :-
+    findall(Pokemon, entidade(Pokemon), ListaEntidades),
+    length(ListaEntidades, NumEntidades),
+    (
+        NumEntidades = 1 ->
+            [Pokemon] = ListaEntidades,
+            format('O seu Pokémon é ~w. Correto? (s/n): ', [Pokemon]),
+            read_line_to_string(user_input, RespostaStr),
+            string_lower(RespostaStr, Resposta),
+            (Resposta = "s" ->
+                writeln('Acertei!!! 😁'),
+                jogar
+            ;
+                writeln('Dessa vez eu falhei... Mas não fique triste, vamos tentar de novo!'),
+                jogar
+            )
+    ;
+        perguntar
+    ).
