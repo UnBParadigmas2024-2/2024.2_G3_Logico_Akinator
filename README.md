@@ -21,13 +21,39 @@
 
 
 ## Sobre 
-<!-- Descreva o seu projeto em linhas gerais. 
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto. -->
+
+Esse projeto corresponde a segunda entrega do Grupo3.
+
+Seu principal objetivo é implementar o jogo Akinator, com o tema de Pokemon, utilizando a linguagem Prolog e a API pokeAPI para o seu desenvolvimento.
+
+### O que é Akinator?
+![Imagem Akinator: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwo8ZDig5ElqPJ2XmZMw49csCehTxSxA247w&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwo8ZDig5ElqPJ2XmZMw49csCehTxSxA247w&s)
+
+
+O Akinator é um jogo virtual desenvolvido em 2007 que tem como objetivo adivinhar o personagem em que o usuário esteja pensando atráves de diversas perguntas. Após respondidas, ele traz o resultado baseado nas respostas do jogador. No caso do jogo original, ele é representado por um gênio virtual.
+
+### O que é Pokemon
+
+![Imagem Pokemon: https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png](https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/800px-International_Pok%C3%A9mon_logo.svg.png)
+
+Pokemon é uma franquia de mídia criada em 1995 pela Gamefreak e publicada pela Nintendo. Seu primeiro lançamento corresponde a duas versões do mesmo jogo com o título "Pocket Monsters Red" e "Pocket Monsters Green". A franquia principal e originaria consiste em um jogo de RPG na qual o jogador pode capturar e evoluir monstros de diversos tipos. Devido ao seu enorme sucesso, novos tipos de mídia foram surgindo ao longo dos anos com a criação de jogos spin-off, diversas temporadas de animes e diversos filmes lançados, tendo extrema relevancia em todos. Com isso, Pokemon tem um forte impacto dentro da cultura pop e atualmente corresponde a franquia de mídia mais valiosa do mundo, estimada em US$ 92,121 bilhões.
+
+### Sobre o projeto
+
+Tendo esses dois temas como base, buscamos por desenvolver um jogo na qual o usuário responde diversas perguntas, sobre características de Pokemon, em formato de "sim ou não" e, no final, o programa deve responder o Pokemon correto na qual o jogador esteja pensando.
+
+Dentro do jogo, um Pokemon é referenciado como "entidade" e cada uma das características é definida como "predicado". As caracteristicas são divididas em ***tipos***, ***altura***, ***peso***, ***cor***, ***habitat*** e ***formato***. Para entender mais, acessar [information_base.md](./app/information_base.md).
 
 ## Screenshots
 <!-- Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento. -->
-
+### Tela inical
+![image](docs/telaInicial.png)
+### Tela de pergunta
+![pergunta](docs/image.png)
+### Tela de acerto
+![acerto](docs/acertou.png)
+### Tela de erro
+![erro](docs/errou.png)
 ## Instalação 
 **Linguagens**: Prolog<br>
 **Tecnologias**: xxxxxx<br> <!--TODO -->
@@ -39,16 +65,51 @@ Gifs animados e outras ilustrações são bem-vindos! -->
 <!-- Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
 Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
-![image](docs/telaInicial.png)
+Para poder utilizar a aplicação é necessário ter instalado na sua maquina o [***SWI Prolog***](https://www.swi-prolog.org/)
 
-1. Tenha o Prolog instalado
+Recomenda-se que faça a instalação via terminal, segue um passo a passo de como instalar:
 
-2. Entre na pasta app
+### Instalação para o Mac
+
+Para instalar no mac, deve-se ter instalado o [***Homebrew***](https://brew.sh/). Sua instalação está bem documentada dentro do seu site (clique em "Homebrew").
+
+Com o [***Homebrew***](https://brew.sh/) instalado, rode o seguinte comando:
+
+```bash
+brew install swi-prolog
+```
+
+### Instalação para o Linux
+
+#### Para distribuições baseadas no Debian/Ubuntu (como Ubuntu, Linux Mint, etc.):
+
+Abra o terminal e execute os seguintes comandos:
+
+```bash
+sudo apt update
+sudo apt install swi-prolog
+```
+#### Para distribuições baseadas no Fedora (Fedora, RHEL, CentOS, etc.):
+
+Abra o terminal e execute:
+```bash
+sudo dnf install swi-prolog
+```
+
+#### caso esteja utilizando uma versão mais antiga do Fedora que usa yum, utilize:
+
+```bash
+sudo yum install swi-prolog
+```
+
+### Após ter o prolog instalado
+
+1. Entre na pasta app
 ```bash
 cd app
 ```
 
-3. Execute o arquivo main.pl
+2. Execute o arquivo main.pl
 ```bash
 swipl main.pl
 ```
@@ -88,5 +149,29 @@ Aqui está a tabela com os nomes em ordem alfabética:
 (iV) Trabalhos Futuros. -->
 
 ## Fontes
-<!-- Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares. -->
+[**Site oficial da PokeAPI:** https://pokeapi.co/](https://pokeapi.co/)
+
+[**Site oficial do Akinator:** https://pt.akinator.com/](https://pt.akinator.com/)
+
+[**Site oficial do Pokémon:** https://www.pokemon.com/br](https://www.pokemon.com/br)
+
+[**Site oficial do Prolog:** https://www.swi-prolog.org/](https://www.swi-prolog.org/)
+
+[**Site oficial do Homebrew:** https://brew.sh/](https://brew.sh/)
+
+## Curiosidades
+Essa sessão é apenas curiosidades divertidas, logo será utilizada uma linguagem bem informal. Divirta-se e depois, se quiser, fale na revisão qual é o seu pokemon favorito ❤️.
+
+
+O melhor pokemon é definitivamente o Squirtle, pega o drip do pai - Sabanai
+
+![Imagem Squirtle: https://uploads.alternativanerd.com.br/wp-content/uploads/2018/07/AN_Squirtle.jpg](https://uploads.alternativanerd.com.br/wp-content/uploads/2018/07/AN_Squirtle.jpg)
+
+O melhor é o Gengar porque eu claramente não tenho personalidade para escolher um pokemon melhor :D - Gui (Escrito por Sabanai)
+
+![Imagem Gengar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtBbGBv-qNawyuSYf6CAyg8bmvWMuSHMVWw&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtBbGBv-qNawyuSYf6CAyg8bmvWMuSHMVWw&s)
+
+Meu Pokemon favorito é o Charizard (achei mt normie - Sabanai) porque eu gosto muito de dragões huhu - Natan
+
+![Imagem Charizard: https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg](https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg)
+
