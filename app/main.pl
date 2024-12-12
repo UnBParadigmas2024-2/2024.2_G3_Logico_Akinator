@@ -6,6 +6,13 @@
 
 main :-
     limpar_terminal,
+    writeln('██████╗  ██████╗ ██╗  ██╗███████╗███╗   ██╗ █████╗ ████████╗ ██████╗ ██████╗ '),
+    writeln('██╔══██╗██╔═══██╗██║ ██╔╝██╔════╝████╗  ██║██╔══██╗╚══██╔══╝██╔═══██╗██╔══██╗'),
+    writeln('██████╔╝██║   ██║█████╔╝ █████╗  ██╔██╗ ██║███████║   ██║   ██║   ██║██████╔╝'),
+    writeln('██╔═══╝ ██║   ██║██╔═██╗ ██╔══╝  ██║╚██╗██║██╔══██║   ██║   ██║   ██║██╔══██╗'),
+    writeln('██║     ╚██████╔╝██║  ██╗███████╗██║ ╚████║██║  ██║   ██║   ╚██████╔╝██║  ██║'),
+    writeln('╚═╝      ╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝    ╚═════╝ ╚═╝  ╚═╝  '),
+    writeln(''),
     writeln('Bem-vindo ao sistema de inferência Pokémon!'),
     menu,
     halt.
@@ -29,28 +36,20 @@ menu :-
 
 jogar :-
     inicializar_contador,
-    perguntar,
-    writeln('Deseja jogar novamente? (s/n):'),
-    read_line_to_string(user_input, RespostaStr),
-    string_lower(RespostaStr, Resposta),
-    (Resposta = "s" ->
-        resetar_jogo,
-        limpar_terminal,
-        jogar
-    ;
-        writeln('Obrigado por jogar! Até a próxima.'),
-        halt
-    ).
+    perguntar.
 
 perguntar :-
     findall(Pokemon, entidade(Pokemon), ListaEntidades),
     length(ListaEntidades, NumEntidades),
     limpar_terminal,
-    (NumEntidades = 0 ->
-        writeln('Nenhuma entidade corresponde aos critérios.');
-    NumEntidades = 1 ->
-        format('O seu pokemon é: ~w~n', ListaEntidades),
-        exibir_contador_perguntas;
+    (
+        NumEntidades = 0 ->
+            writeln('Nenhuma entidade corresponde aos critérios.')
+        ;
+        NumEntidades = 1 ->
+            exibir_contador_perguntas,
+            adivinhar
+        ;
     caracteristicas(Caracteristicas),
     findall(
         (Impacto, Caracteristica, Valor),
@@ -72,9 +71,12 @@ perguntar :-
     format('A entidade possui ~w igual a ~w? (s/n): ', [Carac, Valor]),
     read_line_to_string(user_input, RespostaStr),
     string_lower(RespostaStr, Resposta),
+    (Resposta = "exit" ->
+        writeln('Saindo do jogo...'),
+        halt;
     assert(pergunta_feita(Carac, Valor)),
     processar_resposta(Resposta, Carac, Valor, MelhorImpacto),
-    perguntar)).
+    perguntar))).
 
 limpar_terminal :-
     write('\33[2J').
@@ -99,3 +101,36 @@ incrementar_contador :-
 exibir_contador_perguntas :-
     contador_perguntas(Contagem),
     format('Perguntas feitas até agora: ~w~n', [Contagem]).
+
+adivinhar :-
+    findall(Pokemon, entidade(Pokemon), ListaEntidades),
+    length(ListaEntidades, NumEntidades),
+    (
+        NumEntidades = 1 ->
+            [Pokemon] = ListaEntidades,
+            format('O seu Pokémon é ~w. Correto? (s/n): ', [Pokemon]),
+            read_line_to_string(user_input, RespostaStr),
+            string_lower(RespostaStr, Resposta),
+            (Resposta = "s" ->
+                writeln('Acertei!!! 😁'),
+                jogar_novamente
+            ;
+                writeln('Dessa vez eu falhei... Mas não fique triste, vamos tentar de novo!'),
+                jogar_novamente
+            )
+    ;
+        perguntar
+    ).
+
+jogar_novamente :-
+    writeln('Deseja jogar novamente? (s/n):'),
+    read_line_to_string(user_input, RespostaStr),
+    string_lower(RespostaStr, Resposta),
+    (Resposta = "s" ->
+        resetar_jogo,  % Reinicia o jogo sem reiniciar o contador de perguntas
+        limpar_terminal,
+        jogar  % Chama novamente a função jogar para reiniciar o processo
+    ;
+        writeln('Obrigado por jogar! Até a próxima.'),
+        halt
+    ).

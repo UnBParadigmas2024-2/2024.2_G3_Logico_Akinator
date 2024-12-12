@@ -39,6 +39,7 @@ Gifs animados e outras ilustrações são bem-vindos! -->
 <!-- Explique como usar seu projeto.
 Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
 Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
+![image](docs/telaInicial.png)
 
 1. Tenha o Prolog instalado
 
@@ -68,8 +69,8 @@ Aqui está a tabela com os nomes em ordem alfabética:
 
 | Nome do Membro    | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios           |
 | ----------------- | ------------ | ------------------------------------------------------------------------------ | ------------------------ |
-| Amanda Nobre      |              |                                                                                | [Nome do PR](link_do_PR) |
-| Felipe Pereira    |              |                                                                                | [Nome do PR](link_do_PR) |
+| Amanda Nobre      |              |                                                                                | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11) |
+| Fellipe Pereira    |              |                                                                                | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11) |
 | Gabriel Sabanai   |              |                                                                                | [Nome do PR](link_do_PR) |
 | Guilherme Barbosa |              |                                                                                | [Nome do PR](link_do_PR) |
 | Ingrid Carvalho   |              |                                                                                | [Nome do PR](link_do_PR) |
