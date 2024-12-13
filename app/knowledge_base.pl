@@ -474,7 +474,7 @@ altura(kingler, 1.1-e-1.5).
 altura(voltorb, 0.1-e-0.5).
 altura(electrode, 1.1-e-1.5).
 altura(exeggcute, 0.1-e-0.5).
-altura(exeggutor, mais-de-2.0m).
+altura(exeggutor, mais-de-2.0).
 altura(cubone, 0.1-e-0.5).
 altura(marowak, 0.6-e-1.0).
 altura(hitmonlee, 1.1-e-1.5).
