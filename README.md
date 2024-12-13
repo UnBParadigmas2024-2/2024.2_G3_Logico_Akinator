@@ -311,16 +311,24 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 <details><summary>Pablo Christianno</summary>
 
 ### Lições Aprendidas  
-- 
+- Noção basica do paradigma lógico
+- Manipulação da base de conhecimentos
+- Aprendi a utilizar functors padrões
+- Aumento na compreensão do prolog
 
 ### Percepções  
-- 
+- Foi desafiador trabalhar com um paradigma e linguagem totalmente nova
+- O paradigma lógico, apesar de as vezes confuso, funciona muito bem com a intuição do programdor
+  \ e garante muita liberdade na modificação da base de conhecimento
+- A lógica do prolog é muito intuitiva, apesar de muitas vezes, apresentar grande complexidade
 
 ### Contribuições e Fragilidades  
-- 
+- Contribui com a implementação dos predicados de perguntas na para o motor de inferência
+- Houveram alguns erros que levei um bom tempo para compreender e ajustar
 
 ### Trabalhos Futuros  
-- 
+- Enriquecer a base com pokemons de outras gereações
+- Implentar novos predicados para adivinhação, como exemplo, linha evolutiva
 
 </details>
 
