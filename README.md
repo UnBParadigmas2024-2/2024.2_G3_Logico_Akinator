@@ -137,7 +137,6 @@ Aqui está a tabela com os nomes em ordem alfabética:
 | Pablo Christianno | Implementação incial do motor de inferencia | Excelente                                                                      | [Implementação incial do motor de inferencia](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/8) |
 
 ## Outros 
-
 **Lições Aprendidas:**  
 - O desenvolvimento do projeto ajudou a melhorar minha lógica de programação e habilidades de resolução de problemas.  
 
@@ -151,11 +150,12 @@ Aqui está a tabela com os nomes em ordem alfabética:
 - Alguns itens, como peso e altura, possuem representação menos intuitiva (com hífen no meio).  
 
 **Trabalhos Futuros:**  
-- Expandir a base de conhecimento para abranger todas as gerações de Pokemon.  
-- Implementar a opção "Não sei" como resposta válida.  
-- Criar uma interface gráfica para facilitar o uso.  
-- Melhorar a representação de informações como peso e altura, utilizando uma tradução mais amigável.  
+Dentre as principais percepções e pontos de melhoria, notamos alguns pontos que em trabalhos futuros poderiam ser evoluidos, sendo eles:
 
+- Expandir a base de pokemons para além da primeira geração;
+- Buscar implementar uma interface gráfica;
+- Buscar implementar um resultado de "não sei" caso o Akinator não consiga identificar o pokemon baseado nas respostas;
+- Melhorar a sintaxe de certos predicados, como de altura, buscando remover os hifens
 
 ## Fontes
 [**Site oficial da PokeAPI:** https://pokeapi.co/](https://pokeapi.co/)
@@ -186,3 +186,28 @@ Meu Pokemon favorito é o Charizard (achei mt normie - Sabanai) porque eu gosto 
 
 ![Imagem Charizard: https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg](https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg)
 
+Meu pokémon favorito é o Snorlax - Felipe, Luís
+
+![Imagem Snorlax: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s)
+
+
+O Charmander claramente é o melhor 🔥 - Ricardo
+
+![Imagem Charmander: https://s2-ge.glbimg.com/KA7CaWaackKTbVQsYU3uSxZ39Yw=/0x0:1280x670/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg](https://s2-ge.glbimg.com/KA7CaWaackKTbVQsYU3uSxZ39Yw=/0x0:1280x670/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg)
+
+
+Obviamente o melhor é o Charizard - Lais
+
+![Imagem Charizard: https://sm.ign.com/ign_br/screenshot/default/ash-charizard_s8rg.jpg](https://sm.ign.com/ign_br/screenshot/default/ash-charizard_s8rg.jpg)
+
+O melhor Pokemon é o Sylveon, muito diva - Amanda
+
+![Imagem Sylveon: https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep13_ss01.jpg](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep13_ss01.jpg)
+
+O pokemon show é o Jigglypuff, ele canta!! :D - Ingrid
+
+![Imagem Jigglypuff: https://archives.bulbagarden.net/media/upload/thumb/1/13/Jigglypuff_anime.png/800px-Jigglypuff_anime.png](https://archives.bulbagarden.net/media/upload/thumb/1/13/Jigglypuff_anime.png/800px-Jigglypuff_anime.png)
+
+O mais daora é o Lucario, pega o design dele que style - Pablo
+
+![Imagem Lucario: https://www.videogameschronicle.com/files/2022/11/Lucario.jp](https://www.videogameschronicle.com/files/2022/11/Lucario.jpg)
