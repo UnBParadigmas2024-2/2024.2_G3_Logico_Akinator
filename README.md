@@ -295,16 +295,16 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 <details><summary>Natan Tavares</summary>
 
 ### Lições Aprendidas  
-- 
+- Consegui ter uma noção básica de como um programa em prolog funciona, foi muito interessante ver essa questão de um programa que possui vários possíveis retornos para uma entrada. Isso abre portas para vários tipos de aplicações e agora eu tenho ciência da existẽncia e do funcionamento do prolog.
 
 ### Percepções  
-- 
+- Percebo que neste segundo trabalho, o grupo trabalhou melhor junto. Fizemos a divisão das issues em pares e isso ajudou até na organização. Uma issue acabou dependendo da outra, então todos revisaram os pr's antes de continuar com sua parte e isso facilitou muito o processo em comparação com o trabalho anterior que teve muitos pr's abertos ao mesmo e vários conflitos.
 
 ### Contribuições e Fragilidades  
-- 
+- Conseguimos fazer uma versão básica de um akinator voltado somente para pokemons, mas uma fragilidade é que a sequência de perguntas não muda tanto dependendo das respostas.
 
 ### Trabalhos Futuros  
-- 
+- Trabalhos futuros poderiam incluir um algoritmo que mudasse a sequẽncia de perguntas a fim de chegar perto do resultado esperado pelo usuário mais rapidamente, além de incluir algumas características e pokemons a mais.
 
 </details>
 
