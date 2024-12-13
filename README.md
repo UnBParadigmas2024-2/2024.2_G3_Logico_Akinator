@@ -179,16 +179,17 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 <details><summary>Fellipe Pereira</summary>
 
 ### Lições Aprendidas  
-- 
+- Eu particularmente não gostei tanto do Prolog como gostei do Haskell. Porém compreendi melhor as limitações de certas sintaxes e ferramentas utilizadas no projeto, como a necessidade de adaptação às restrições de escrita e estruturação dos dados.
+- Validei a importância de uma documentação bem-feita, não apenas para registro técnico, mas também para facilitar a continuidade do trabalho por outros membros da equipe.
 
 ### Percepções  
-- 
+- A complexidade do Prolog exige atenção redobrada na clareza da escrita e na padronização dos predicados, especialmente para evitar ambiguidades.  
 
 ### Contribuições e Fragilidades  
-- 
+- Desenvolvi a função responsável por determinar e apresentar a resposta final ao usuário. Também implementei mensagens adequadas para casos específicos, como múltiplas possibilidades ou ausência de resultados.  
 
 ### Trabalhos Futuros  
-- 
+- Propor melhorias na interface e na parte de código e arquitetura. 
 
 </details>
 
@@ -367,7 +368,7 @@ Meu Pokemon favorito é o Charizard (achei mt normie - Sabanai) porque eu gosto 
 
 <img src="https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg" width="400px"/>
 
-Meu pokémon favorito é o Snorlax - Felipe, Luís
+Meu pokémon favorito é o Snorlax - Fellipe, Luís
 
 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s" width="400px"/>
 
