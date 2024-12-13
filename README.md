@@ -136,6 +136,8 @@ Procure:
 (iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
 OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
 TEMPO: +/- 15min -->
+É possível ver o video de apresentação pelo [link](https://youtube.com)
+
 
 ## Participações
 
@@ -323,15 +325,15 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 </details>
 
 ## Fontes
-[**Site oficial da PokeAPI:**](https://pokeapi.co/)
+[**Site oficial da PokeAPI**](https://pokeapi.co/)
 
-[**Site oficial do Akinator:**](https://pt.akinator.com/)
+[**Site oficial do Akinator**](https://pt.akinator.com/)
 
-[**Site oficial do Pokémon:**](https://www.pokemon.com/br)
+[**Site oficial do Pokémon**](https://www.pokemon.com/br)
 
-[**Site oficial do Prolog:**](https://www.swi-prolog.org/)
+[**Site oficial do Prolog**](https://www.swi-prolog.org/)
 
-[**Site oficial do Homebrew:**](https://brew.sh/)
+[**Site oficial do Homebrew**](https://brew.sh/)
 
 [**Projeto Akinator GOT**](https://github.com/Paradigmas-2-2017/akinator-of-thrones)
 
@@ -341,38 +343,39 @@ Essa sessão é apenas curiosidades divertidas, logo será utilizada uma linguag
 
 O melhor pokemon é definitivamente o Squirtle, pega o drip do pai - Sabanai
 
-![Imagem Squirtle: https://uploads.alternativanerd.com.br/wp-content/uploads/2018/07/AN_Squirtle.jpg](https://uploads.alternativanerd.com.br/wp-content/uploads/2018/07/AN_Squirtle.jpg)
+<img src="https://uploads.alternativanerd.com.br/wp-content/uploads/2018/07/AN_Squirtle.jpg" width="400px"/>
 
 O melhor é o Gengar porque eu claramente não tenho personalidade para escolher um pokemon melhor :D - Gui (Escrito por Sabanai)
 
-![Imagem Gengar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtBbGBv-qNawyuSYf6CAyg8bmvWMuSHMVWw&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtBbGBv-qNawyuSYf6CAyg8bmvWMuSHMVWw&s)
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvtBbGBv-qNawyuSYf6CAyg8bmvWMuSHMVWw&s" width="400px"/>
 
 Meu Pokemon favorito é o Charizard (achei mt normie - Sabanai) porque eu gosto muito de dragões huhu - Natan
 
-![Imagem Charizard: https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg](https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg)
+<img src="https://criticalhits.com.br/wp-content/uploads/2024/04/Charizard-flying.jpg" width="400px"/>
 
 Meu pokémon favorito é o Snorlax - Felipe, Luís
 
-![Imagem Snorlax: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s)
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaCTwYLpMUaXhbpVD7TUL3q7pZkmDaKQwuuw&s" width="400px"/>
 
 
 O Charmander claramente é o melhor 🔥 - Ricardo
 
-![Imagem Charmander: https://s2-ge.glbimg.com/KA7CaWaackKTbVQsYU3uSxZ39Yw=/0x0:1280x670/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg](https://s2-ge.glbimg.com/KA7CaWaackKTbVQsYU3uSxZ39Yw=/0x0:1280x670/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg)
+<img src="https://s2-ge.glbimg.com/KA7CaWaackKTbVQsYU3uSxZ39Yw=/0x0:1280x670/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2021/k/W/ey3W2jRAmAY9m4dAgfZg/charmander.jpg" width="400px"/>
 
 
 Obviamente o melhor é o Charizard - Lais
 
-![Imagem Charizard: https://sm.ign.com/ign_br/screenshot/default/ash-charizard_s8rg.jpg](https://sm.ign.com/ign_br/screenshot/default/ash-charizard_s8rg.jpg)
+<img src="https://sm.ign.com/ign_br/screenshot/default/ash-charizard_s8rg.jpg" width="400px"/>
 
 O melhor Pokemon é o Sylveon, muito diva - Amanda
 
-![Imagem Sylveon: https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep13_ss01.jpg](https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep13_ss01.jpg)
+<img src="https://assets.pokemon.com/assets/cms2/img/watch-pokemon-tv/seasons/season17/season17_ep13_ss01.jpg" width="400px"/>
 
 O pokemon show é o Jigglypuff, ele canta!! :D - Ingrid
 
-![Imagem Jigglypuff: https://archives.bulbagarden.net/media/upload/thumb/1/13/Jigglypuff_anime.png/800px-Jigglypuff_anime.png](https://archives.bulbagarden.net/media/upload/thumb/1/13/Jigglypuff_anime.png/800px-Jigglypuff_anime.png)
+<img src="https://archives.bulbagarden.net/media/upload/thumb/1/13/Jigglypuff_anime.png/800px-Jigglypuff_anime.png" width="400px"/>
 
 O mais daora é o Lucario, pega o design dele que style - Pablo
 
-![Imagem Lucario: https://www.videogameschronicle.com/files/2022/11/Lucario.jp](https://www.videogameschronicle.com/files/2022/11/Lucario.jpg)
+<img src="https://www.videogameschronicle.com/files/2022/11/Lucario.jpg" width="400px"/>
+
