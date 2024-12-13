@@ -127,8 +127,8 @@ Quando o jogo acabar é possivel escolher se quer jogar novamente ou sair.
 ![Gif](docs/gameplay.gif)
 
 
-## Vídeo
-<!-- Adicione 1 ou mais vídeos com a execução do projeto.
+<!-- ## Vídeo
+Adicione 1 ou mais vídeos com a execução do projeto.
 Procure: 
 (i) Introduzir o projeto;
 (ii) Mostrar passo a passo o código, explicando-o, e deixando claro o que é de terceiros, e o que é contribuição real da equipe;
@@ -136,7 +136,6 @@ Procure:
 (iV) Apresentar lições aprendidas, contribuições, pendências, e ideias para trabalhos futuros.
 OBS: TODOS DEVEM PARTICIPAR, CONFERINDO PONTOS DE VISTA.
 TEMPO: +/- 15min -->
-É possível ver o video de apresentação pelo [link](https://youtube.com)
 
 
 ## Participações
