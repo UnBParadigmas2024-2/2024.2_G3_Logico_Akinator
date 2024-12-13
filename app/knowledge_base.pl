@@ -400,10 +400,10 @@ altura(pikachu, 0.1-e-0.5).
 altura(raichu, 0.6-e-1.0).
 altura(sandshrew, 0.6-e-1.0).
 altura(sandslash, 0.6-e-1.0).
-altura(nidoran-f  0.1-e-0.5).
+altura(nidoran-f, 0.1-e-0.5).
 altura(nidorina, 0.6-e-1.0).
 altura(nidoqueen, 1.1-e-1.5).
-altura(nidoran-m  0.1-e-0.5).
+altura(nidoran-m, 0.1-e-0.5).
 altura(nidorino, 0.6-e-1.0).
 altura(nidoking, 1.1-e-1.5).
 altura(clefairy, 0.6-e-1.0).
@@ -474,7 +474,7 @@ altura(kingler, 1.1-e-1.5).
 altura(voltorb, 0.1-e-0.5).
 altura(electrode, 1.1-e-1.5).
 altura(exeggcute, 0.1-e-0.5).
-altura(exeggutor, mais-de-2.0m).
+altura(exeggutor, mais-de-2.0).
 altura(cubone, 0.1-e-0.5).
 altura(marowak, 0.6-e-1.0).
 altura(hitmonlee, 1.1-e-1.5).
@@ -493,7 +493,7 @@ altura(goldeen, 0.6-e-1.0).
 altura(seaking, 1.1-e-1.5).
 altura(staryu, 0.6-e-1.0).
 altura(starmie, 1.1-e-1.5).
-altura(mr-mime  1.1-e-1.5).
+altura(mr-mime,  1.1-e-1.5).
 altura(scyther, 1.1-e-1.5).
 altura(jynx, 1.1-e-1.5).
 altura(electabuzz, 1.1-e-1.5).
@@ -553,10 +553,10 @@ peso(pikachu, 5.1-e-10.0).
 peso(raichu, 10.1-e-50.0).
 peso(sandshrew, 10.1-e-50.0).
 peso(sandslash, 10.1-e-50.0).
-peso(nidoran-f  5.1-e-10.0).
+peso(nidoran-f, 5.1-e-10.0).
 peso(nidorina, 10.1-e-50.0).
 peso(nidoqueen, 50.1-e-100.0).
-peso(nidoran-m  5.1-e-10.0).
+peso(nidoran-m, 5.1-e-10.0).
 peso(nidorino, 10.1-e-50.0).
 peso(nidoking, 50.1-e-100.0).
 peso(clefairy, 5.1-e-10.0).
@@ -646,7 +646,7 @@ peso(goldeen, 10.1-e-50.0).
 peso(seaking, 10.1-e-50.0).
 peso(staryu, 10.1-e-50.0).
 peso(starmie, 50.1-e-100.0).
-peso(mr-mime  50.1-e-100.0).
+peso(mr-mime,  50.1-e-100.0).
 peso(scyther, 50.1-e-100.0).
 peso(jynx, 10.1-e-50.0).
 peso(electabuzz, 10.1-e-50.0).
