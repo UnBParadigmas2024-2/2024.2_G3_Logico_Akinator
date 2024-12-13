@@ -45,26 +45,21 @@ Tendo esses dois temas como base, buscamos por desenvolver um jogo na qual o usu
 Dentro do jogo, um Pokemon é referenciado como "entidade" e cada uma das características é definida como "predicado". As caracteristicas são divididas em ***tipos***, ***altura***, ***peso***, ***cor***, ***habitat*** e ***formato***. Para entender mais, acessar [information_base.md](./app/information_base.md).
 
 ## Screenshots
-<!-- Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento. -->
 ### Tela inical
 ![image](docs/telaInicial.png)
 ### Tela de pergunta
-![pergunta](docs/image.png)
+![pergunta](docs/pergunta.png)
 ### Tela de acerto
 ![acerto](docs/acertou.png)
 ### Tela de erro
 ![erro](docs/errou.png)
+
 ## Instalação 
 **Linguagens**: Prolog<br>
-**Tecnologias**: xxxxxx<br> <!--TODO -->
-<!-- Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos! -->
+**Tecnologias**: Não tem<br> 
 
 ## Uso 
-<!-- Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software. -->
+
 Para poder utilizar a aplicação é necessário ter instalado na sua maquina o [***SWI Prolog***](https://www.swi-prolog.org/)
 
 Recomenda-se que faça a instalação via terminal, segue um passo a passo de como instalar:
@@ -128,25 +123,39 @@ TEMPO: +/- 15min -->
 
 Aqui está a tabela com os nomes em ordem alfabética:
 
-| Nome do Membro    | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios           |
-| ----------------- | ------------ | ------------------------------------------------------------------------------ | ------------------------ |
-| Amanda Nobre      |              |                                                                                | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11) |
-| Fellipe Pereira    |              |                                                                                | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11) |
-| Gabriel Sabanai   |              |                                                                                | [Nome do PR](link_do_PR) |
-| Guilherme Barbosa |              |                                                                                | [Nome do PR](link_do_PR) |
-| Ingrid Carvalho   |              |                                                                                | [Nome do PR](link_do_PR) |
-| Lais Portela      |              |                                                                                | [Nome do PR](link_do_PR) |
-| Luciano Ricardo   |              |                                                                                | [Nome do PR](link_do_PR) |
-| Luiz Henrique     |              |                                                                                | [Nome do PR](link_do_PR) |
-| Natan Tavares     |              |                                                                                | [Nome do PR](link_do_PR) |
-| Pablo Christianno |              |                                                                                | [Nome do PR](link_do_PR) |
+| Nome do Membro    | Contribuição                                | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) | Comprobatórios                                                                                                          |
+| ----------------- | ------------------------------------------- | ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------- |
+| Amanda Nobre      | Adiciona predicado de adivinhacao final     | Excelente                                                                      | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11)    |
+| Fellipe Pereira   | Adiciona predicado de adivinhacao final     | Excelente                                                                      | [Adiciona predicado de adivinhacao final](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/11)    |
+| Gabriel Sabanai   | Melhorias no banco de conhecimento          | Boa                                                                            | [Melhorias no banco de conhecimento](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/12)         |
+| Guilherme Barbosa | Melhorias no banco de conhecimento          | Boa                                                                            | [Melhorias no banco de conhecimento](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/12)         |
+| Ingrid Carvalho   | Criação de banco de conhecimento            | Excelente                                                                      | [Criação de banco de conhecimento](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/7)            |
+| Lais Portela      | Criação de banco de conhecimento            | Excelente                                                                      | [Criação de banco de conhecimento](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/7)            |
+| Luciano Ricardo   | Interface de jogo                           | Excelente                                                                      | [Interface de jogo](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/9)                           |
+| Luiz Henrique     | Implementação incial do motor de inferencia | Excelente                                                                      | [Implementação incial do motor de inferencia](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/8) |
+| Natan Tavares     | Interface de jogo                           | Excelente                                                                      | [Interface de jogo](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/9)                           |
+| Pablo Christianno | Implementação incial do motor de inferencia | Excelente                                                                      | [Implementação incial do motor de inferencia](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/8) |
 
 ## Outros 
-<!-- Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
-(i) Lições Aprendidas;
-(ii) Percepções;
-(iii) Contribuições e Fragilidades, e
-(iV) Trabalhos Futuros. -->
+
+**Lições Aprendidas:**  
+- O desenvolvimento do projeto ajudou a melhorar minha lógica de programação e habilidades de resolução de problemas.  
+
+**Percepções:**  
+- O Prolog foi mais dificil comparado ao Haskell.
+
+**Contribuições:** 
+- Permitiu entender melhor o paradigma lógico e explorar sua aplicação prática.  
+
+**Fragilidades:**  
+- Alguns itens, como peso e altura, possuem representação menos intuitiva (com hífen no meio).  
+
+**Trabalhos Futuros:**  
+- Expandir a base de conhecimento para abranger todas as gerações de Pokemon.  
+- Implementar a opção "Não sei" como resposta válida.  
+- Criar uma interface gráfica para facilitar o uso.  
+- Melhorar a representação de informações como peso e altura, utilizando uma tradução mais amigável.  
+
 
 ## Fontes
 [**Site oficial da PokeAPI:** https://pokeapi.co/](https://pokeapi.co/)
@@ -158,6 +167,8 @@ Aqui está a tabela com os nomes em ordem alfabética:
 [**Site oficial do Prolog:** https://www.swi-prolog.org/](https://www.swi-prolog.org/)
 
 [**Site oficial do Homebrew:** https://brew.sh/](https://brew.sh/)
+
+[**Projeto Akinator GOT**](https://github.com/Paradigmas-2-2017/akinator-of-thrones)
 
 ## Curiosidades
 Essa sessão é apenas curiosidades divertidas, logo será utilizada uma linguagem bem informal. Divirta-se e depois, se quiser, fale na revisão qual é o seu pokemon favorito ❤️.
