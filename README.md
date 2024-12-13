@@ -194,17 +194,23 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 
 <details><summary>Gabriel Sabanai</summary>
 
-### Lições Aprendidas  
-- 
+### Contexto
+Grande parte da semana de desenvolvimento dessa entrega eu fiquei doente. Como o time nn podia ficar para trás, já haviam desenvolvido minha issue. Entretanto, mesmo com o que aconteceu, reconheço que não contribui muito com as partes lógicas e tecnicas do projeto. O que vou trazer será uma visão maior de usuário e de alguém que fez a documentação.
+
+### Lições Aprendidas 
+- Gostei muito da forma como em teoria populamos o banco, temos um script em python que acessa a api do pokeAPI e cria um arquivo prologue como modelo da nossa base de dados.
 
 ### Percepções  
-- 
+- A sintaxe do prologue tende a não ser tão amigavel, isso acaba por trazer certas dificuldades, como integração e manutenção de código. Ao trabalharmos em equipe, nota-se como foi importante a modularização e boa divisão de responsabilidades nas entregas de cada um dos membros.
 
 ### Contribuições e Fragilidades  
-- 
+- A maior fragilidade que senti é como estava a escrita de certos predicados. Algumas perguntas apareciam como "A altura é 0.1-e-0.5", faltando de uma linguagem clara e de certas informações, como a unidade de medida. Outra questão foram certas definições que apareciam do formato como "massa-informe", particulamente, acredito que ninguém saiba o que seria uma massa-informe. Dito isso, busquei contribuir ao máximo trocar esses termos mais complexos para termos mais claros. Por exemplo, de "massa-informe" troquei para "sem-massa".
+
+- Outra questão, é a necessidade de termos usado "-" como indicador de espaço. Aparentemente o prologue tem restrições de escrita o que nos trouxe um impedimento de comunicação mais clara com o usuário. 
 
 ### Trabalhos Futuros  
-- 
+- Acredito que como trabalho futuro, o ideal seria trazermos uma sintaxe e ui mais amigavel para o usuário final.
+- Seria importante otimizarmos o script para termos uma camada de tradução para PT-BR. Entendo a dificuldade, mas sem essa camada, nosso script se torna um pouco obsoleto
 
 </details>
 
