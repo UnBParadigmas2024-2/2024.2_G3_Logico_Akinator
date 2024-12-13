@@ -58,13 +58,11 @@ Dentro do jogo, um Pokemon é referenciado como "entidade" e cada uma das caract
 **Linguagens**: Prolog<br>
 **Tecnologias**: Não tem<br> 
 
-## Uso 
-
 Para poder utilizar a aplicação é necessário ter instalado na sua maquina o [***SWI Prolog***](https://www.swi-prolog.org/)
 
 Recomenda-se que faça a instalação via terminal, segue um passo a passo de como instalar:
 
-### Instalação para o Mac
+<details><summary>Instalação para o Mac</summary>
 
 Para instalar no mac, deve-se ter instalado o [***Homebrew***](https://brew.sh/). Sua instalação está bem documentada dentro do seu site (clique em "Homebrew").
 
@@ -73,8 +71,10 @@ Com o [***Homebrew***](https://brew.sh/) instalado, rode o seguinte comando:
 ```bash
 brew install swi-prolog
 ```
+</details>
 
-### Instalação para o Linux
+
+<details><summary>Instalação para o Linux</summary>
 
 #### Para distribuições baseadas no Debian/Ubuntu (como Ubuntu, Linux Mint, etc.):
 
@@ -96,6 +96,8 @@ sudo dnf install swi-prolog
 ```bash
 sudo yum install swi-prolog
 ```
+</details>
+
 
 ### Após ter o prolog instalado
 
@@ -108,6 +110,22 @@ cd app
 ```bash
 swipl main.pl
 ```
+
+
+## Uso 
+
+Para utilizar o jogo, basta rodar o arquivo main.pl, que irá iniciar o jogo.
+
+No menu principal serão apresentadas as opções de jogar e sair. Para jogar, basta digitar 1 e pressionar enter, para sair, digite 2 e pressionar enter.
+
+Para responder a pergunta, basta digitar `s` ou `n` e pressionar enter.
+
+A qualquer momento é possivel escrever `exit` e pressionar enter para sair do jogo.
+
+Quando o jogo acabar é possivel escolher se quer jogar novamente ou sair.
+
+![Gif](docs/gameplay.gif)
+
 
 ## Vídeo
 <!-- Adicione 1 ou mais vídeos com a execução do projeto.
@@ -137,36 +155,182 @@ Aqui está a tabela com os nomes em ordem alfabética:
 | Pablo Christianno | Implementação incial do motor de inferencia | Excelente                                                                      | [Implementação incial do motor de inferencia](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/8) |
 
 ## Outros 
-**Lições Aprendidas:**  
+Abaixo consta os relatos de cada membr0 da equipe, no que se diz respeito a lições aprendidas, contribuições, percepções, fragilidades e trabalhos futuros.
+
+<details><summary>Amanda Nobre</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Fellipe Pereira</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Gabriel Sabanai</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Guilherme Barbosa</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Ingrid Carvalho</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Lais Portela</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Luciano Ricardo</summary>
+
+### Lições Aprendidas  
 - O desenvolvimento do projeto ajudou a melhorar minha lógica de programação e habilidades de resolução de problemas.  
 
-**Percepções:**  
+### Percepções  
 - O Prolog foi mais dificil comparado ao Haskell.
 
-**Contribuições:** 
-- Permitiu entender melhor o paradigma lógico e explorar sua aplicação prática.  
+### Contribuições e Fragilidades  
+- Alem de liderar o grupo fazendo o planejamento do projeto e divisão do trabalho entre membros, eu desenvolvi principalmente na parte de menu do jogo. 
+- Tive bastante dificuldade em entender o Prolog, enquanto linguagem, mas acho que entendi o paradigma relativamente bem. 
 
-**Fragilidades:**  
-- Alguns itens, como peso e altura, possuem representação menos intuitiva (com hífen no meio).  
+### Trabalhos Futuros  
+- Expandir a base de conhecimento para abranger todas as gerações de Pokemon.  
+- Implementar a opção "Não sei" como resposta válida.  
+- Criar uma interface gráfica para facilitar o uso.  
+- Melhorar a representação de informações como peso e altura, utilizando uma tradução mais amigável.  
 
-**Trabalhos Futuros:**  
-Dentre as principais percepções e pontos de melhoria, notamos alguns pontos que em trabalhos futuros poderiam ser evoluidos, sendo eles:
+</details>
 
-- Expandir a base de pokemons para além da primeira geração;
-- Buscar implementar uma interface gráfica;
-- Buscar implementar um resultado de "não sei" caso o Akinator não consiga identificar o pokemon baseado nas respostas;
-- Melhorar a sintaxe de certos predicados, como de altura, buscando remover os hifens
+<details><summary>Luiz Henrique</summary>
+
+### Lições Aprendidas  
+- a
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Natan Tavares</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
+
+<details><summary>Pablo Christianno</summary>
+
+### Lições Aprendidas  
+- 
+
+### Percepções  
+- 
+
+### Contribuições e Fragilidades  
+- 
+
+### Trabalhos Futuros  
+- 
+
+</details>
 
 ## Fontes
-[**Site oficial da PokeAPI:** https://pokeapi.co/](https://pokeapi.co/)
+[**Site oficial da PokeAPI:**](https://pokeapi.co/)
 
-[**Site oficial do Akinator:** https://pt.akinator.com/](https://pt.akinator.com/)
+[**Site oficial do Akinator:**](https://pt.akinator.com/)
 
-[**Site oficial do Pokémon:** https://www.pokemon.com/br](https://www.pokemon.com/br)
+[**Site oficial do Pokémon:**](https://www.pokemon.com/br)
 
-[**Site oficial do Prolog:** https://www.swi-prolog.org/](https://www.swi-prolog.org/)
+[**Site oficial do Prolog:**](https://www.swi-prolog.org/)
 
-[**Site oficial do Homebrew:** https://brew.sh/](https://brew.sh/)
+[**Site oficial do Homebrew:**](https://brew.sh/)
 
 [**Projeto Akinator GOT**](https://github.com/Paradigmas-2-2017/akinator-of-thrones)
 
