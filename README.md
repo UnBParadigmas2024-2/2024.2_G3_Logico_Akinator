@@ -160,16 +160,17 @@ Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a liç
 <details><summary>Amanda Nobre</summary>
 
 ### Lições Aprendidas  
-- 
+- É necessária uma base muito bem estruturada para que o programa funcione como o esperado; a modelagem dos dados é muito importante.
 
 ### Percepções  
-- 
-
+- Ao programar em Prolog, fica muito clara a necessidade de ter uma boa organização em relação ao fluxo de desenvolvimento, para evitar conflitos e conseguir manter uma boa manutenibilidade.
+  
 ### Contribuições e Fragilidades  
-- 
+- A lógica de busca na base pode ser otimizada, para que seja possível chegar ao resultado correto mais rapidamente.
 
 ### Trabalhos Futuros  
-- 
+- Ter uma interface mais bonita, mostrando os pokémons no terminal.
+- Expandir a base para mais gerações e adicionar mais informações, como estágio de evolução.
 
 </details>
 
