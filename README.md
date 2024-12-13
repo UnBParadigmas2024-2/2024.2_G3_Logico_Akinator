@@ -155,7 +155,7 @@ Aqui está a tabela com os nomes em ordem alfabética:
 | Pablo Christianno | Implementação incial do motor de inferencia | Excelente                                                                      | [Implementação incial do motor de inferencia](https://github.com/UnBParadigmas2024-2/2024.2_G3_Logico_Pokenator/pull/8) |
 
 ## Outros 
-Abaixo consta os relatos de cada membr0 da equipe, no que se diz respeito a lições aprendidas, contribuições, percepções, fragilidades e trabalhos futuros.
+Abaixo consta os relatos de cada membro da equipe, no que se diz respeito a lições aprendidas, contribuições, percepções, fragilidades e trabalhos futuros.
 
 <details><summary>Amanda Nobre</summary>
 
